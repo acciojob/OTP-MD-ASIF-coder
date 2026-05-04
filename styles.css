@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+
+.card {
+	padding: 30px;
+	text-align: center;
+}
+
+.code-container {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
+
+.code {
+	width: 50px;
+	height: 55px;
+	font-size: 2rem;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.code:focus {
+	border: 1px solid blue;
+	outline: none;
+}
